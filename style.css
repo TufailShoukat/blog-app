@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Dancing+Script:wght@400..700&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Nanum+Myeongjo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 
 }
 header{
-    background-color: #727379;
+   
     background-image: url(./images/banner2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
+    height: 100vh;
    
 
 }
@@ -16,10 +19,15 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    position: sticky;
+    top: 0;
+    background-color: #74737A;
     padding: 30px;
     color: white;
     font-size: 30px;
+}
+nav div h1 #colo{
+    color: white;
 }
 nav div h1 span{
     color: #4DE4FF;
@@ -43,11 +51,50 @@ nav button:hover{
     background-color: #21B7FD;
 }
 .headermain{
+    
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
+    /* text-align: center; */
+    height: 50vh;
 }
 
-header .para{
+header .para h1{
+    font-family:"Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 100px;
     
+}
+header .para p{
+    font-size: 35px;
+    text-align: center;
+}
+
+/*----------------------about------------------*/
+
+#about{
+    margin-top: 30px !important;
+}
+#para1{
+    font-size: 25px;
+    text-align: justify;
+    padding-right: 20px;
+}
+#aboutImage img{
+    height: 500px !important;
+    width: 600px !important;
+}
+.btn{
+    margin-top: 30px;
+    border: 1px solid !important;
+    padding: 10px !important;
+    outline: none;
+    font-size: 27px !important;
+
+}
+.btn:hover{
+    background-color: #4DE4FF !important;
+    color: white !important;
 }
