@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-color: #727379;
+    background-image: url(./images/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+   
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px;
+    color: white;
+    font-size: 30px;
+}
+nav div h1 span{
+    color: #4DE4FF;
+    cursor: pointer;
+}
+nav button{
+    /* margin: 10px; */
+  background-color: #4DE4FF;
+  border: none;
+  outline: none;
+  height: 60px;
+  width: 140px;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+nav button:hover{
+
+    background-color: #21B7FD;
+}
+.headermain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .para{
+    
+}
