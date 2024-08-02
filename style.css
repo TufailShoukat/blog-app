@@ -1,100 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Dancing+Script:wght@400..700&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Nanum+Myeongjo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-
-}
-header{
-   
-    background-image: url(./images/banner2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    height: 100vh;
-   
-
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    background-color: #74737A;
-    padding: 30px;
-    color: white;
-    font-size: 30px;
-}
-nav div h1 #colo{
-    color: white;
-}
-nav div h1 span{
-    color: #4DE4FF;
-    cursor: pointer;
-}
-nav button{
-    /* margin: 10px; */
-  background-color: #4DE4FF;
-  border: none;
-  outline: none;
-  height: 60px;
-  width: 140px;
-  color: white;
-  font-weight: 600;
-  border-radius: 5px;
-  font-size: 20px;
+.navbar_start .navbar {
+    background-color: #f8f9fa; 
+    justify-content: center; 
 }
 
-nav button:hover{
-
-    background-color: #21B7FD;
-}
-.headermain{
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    /* text-align: center; */
-    height: 50vh;
-}
-
-header .para h1{
-    font-family:"Anton", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-    font-size: 100px;
+.navbar_start .navbar-nav {
+    margin: auto; 
     
 }
-header .para p{
-    font-size: 35px;
-    text-align: center;
+
+.navbar_start .nav-link {
+    color: black; 
+    font-weight: bold;
+    position: relative; 
+    transition: color 0.3s; 
 }
 
-/*----------------------about------------------*/
+.navbar_start .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px; 
+    left: 0;
+    right: 0;
+    height: 2px; 
+    background-color: transparent;
+    transition: background-color 0.3s; 
+    
+}
 
-#about{
-    margin-top: 30px !important;
+.navbar_start .nav-link:hover {
+    color: aqua;
+    
 }
-#para1{
-    font-size: 25px;
-    text-align: justify;
-    padding-right: 20px;
-}
-#aboutImage img{
-    height: 500px !important;
-    width: 600px !important;
-}
-.btn{
-    margin-top: 30px;
-    border: 1px solid !important;
-    padding: 10px !important;
-    outline: none;
-    font-size: 27px !important;
 
+.navbar_start .nav-link:hover::after {
+    background-color: aqua; 
+    
 }
-.btn:hover{
-    background-color: #4DE4FF !important;
-    color: white !important;
+
+.navbar_start .card-group {
+    gap: 15px;
+    
+    display: flex;
+    justify-content: space-around; 
+    
 }
+
+/* 
+//CARDS STYLE START */
+
+.cards_start .card {
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    flex: 1; 
+    margin: 10px;
+}
+
+.cards_start .card img {
+    height: 150px;
+    object-fit: cover; 
+    
+}
+
+
+.cards_start .card-body {
+    padding: 20px;
+}
+
+.cards_start .card h2 {
+    color: aqua !important; 
+}
+
+.cards_start .card h2 {
+    color: #555; 
+}
+
