@@ -98,3 +98,121 @@ header .para p{
     background-color: #4DE4FF !important;
     color: white !important;
 }
+/* product */
+
+
+
+.navbar_start .navbar {
+    background-color: #f8f9fa; 
+    justify-content: center; 
+}
+
+.navbar_start .navbar-nav {
+    margin: auto; 
+    
+}
+
+.navbar_start .nav-link {
+    color: black; 
+    font-weight: bold;
+    position: relative; 
+    transition: color 0.3s; 
+}
+
+.navbar_start .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px; 
+    left: 0;
+    right: 0;
+    height: 2px; 
+    background-color: transparent;
+    transition: background-color 0.3s; 
+    
+}
+
+.navbar_start .nav-link:hover {
+    color: aqua;
+    
+}
+
+.navbar_start .nav-link:hover::after {
+    background-color: aqua; 
+    
+}
+
+.navbar_start .card-group {
+    gap: 15px;
+    
+    display: flex;
+    justify-content: space-around; 
+    
+}
+
+/* 
+//CARDS STYLE START */
+
+.cards_start .card {
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    flex: 1; 
+    margin: 10px;
+}
+
+.cards_start .card img {
+    height: 150px;
+    object-fit: cover; 
+    
+}
+
+
+.cards_start .card-body {
+    padding: 20px;
+}
+
+.cards_start .card h2 {
+    color: aqua !important; 
+}
+
+.cards_start .card h2 {
+    color: #555; 
+}
+/* footer */
+footer{
+    background-color: black;
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}.aboutfooter{
+    margin-top: 80px;
+}
+
+.aboutfooter p{
+    width: 400px;
+    text-align: justify;
+    font-size: 20px;
+    
+}
+.linkfooter a {
+    /* margin-top: 10px; */
+    text-decoration: none;
+    color: white;
+    display: flex;
+    font-size: 34px;
+    
+}
+.contentfooter{
+margin-top: -20px;
+font-size: 23px;
+/* padding-top: -100px; */
+}
+.contentfooter a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
